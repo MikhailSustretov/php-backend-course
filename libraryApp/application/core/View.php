@@ -46,7 +46,6 @@ class View
     public static function errorCode($code)
     {
         http_response_code($code);
-        require_once 'application/views/errors/' . $code . '.php';
         exit;
     }
 }
