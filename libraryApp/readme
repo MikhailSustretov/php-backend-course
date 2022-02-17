@@ -1,0 +1,18 @@
+Requires:
+    - PHP 8.1.0
+    - MySql 8.0.28
+    - nginx/1.20.2
+
+
+Getting Started:
+   - Copy the repository to root folder of yours server.
+   - Add the new virtual host settings from the nginx_conf file (inside the library_host folder) to your server's nginx.conf file
+   - Create database.
+   - Fill the db_params.php file with your data (at "/config" folder).
+   - Run the file migrattion.php (at "/application/etc/migrations/" folder).
+   - Add delete_cron.bat and back_up_cron.bat to windows task scheduler (at "/application/etc/cron/" folders)
+   
+
+Admin page:
+   - Login: admin
+   - Password: admin
