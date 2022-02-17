@@ -1,1 +1,0 @@
-D:\WNMP\php\php.exe D:\WNMP\nginx\html\libraryApp\application\etc\cron\deletion_cron\soft_deletion.php
